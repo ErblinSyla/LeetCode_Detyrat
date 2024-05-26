@@ -7,7 +7,8 @@
 
 using namespace std;
 
-
+// Time Complexity = O(n) - push, O(1) - pop, peek, empty
+// Space Complexity = O(n) - MyQueue Class
 // Detyra 1 --------------------------------------------------------------------------------------------------
 
 class MyQueue {
@@ -62,9 +63,9 @@ public:
 };
 
 
-
-
- // Detyra 2 --------------------------------------------------------------------------------------------------
+// Time Complexity = O(n) - push, O(1) - pop, top, empty
+// Space Complexity = O(n)
+// Detyra 2 --------------------------------------------------------------------------------------------------
 
 class MyStack {
 public:
@@ -114,7 +115,8 @@ public:
 
 
 
-
+// Time Complexity = O(n * m) - nextGreaterElement, O(n) - findPosition
+// Space Complexity = O(n)
 // Detyra 3 --------------------------------------------------------------------------------------------------
 
 class Solution3 {
@@ -156,7 +158,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(1)
 // Detyra 4 --------------------------------------------------------------------------------------------------
 
 class Solution4 {
@@ -179,7 +182,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(1)
 // Detyra 5 --------------------------------------------------------------------------------------------------
 
 class Solution5 {
@@ -203,7 +207,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(1)
 // Detyra 6 --------------------------------------------------------------------------------------------------
 
 struct ListNode6 {
@@ -234,7 +239,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(n)
 // Detyra 7 --------------------------------------------------------------------------------------------------
 
 struct ListNode7 {
@@ -279,7 +285,8 @@ void addNode7(ListNode7*& head, int value) {
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(1)
 // Detyra 8 --------------------------------------------------------------------------------------------------
 
 struct ListNode8 {
@@ -308,7 +315,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(1)
 // Detyra 9 --------------------------------------------------------------------------------------------------
 
 struct ListNode9 {
@@ -371,7 +379,8 @@ void addNode9(ListNode9*& head, int value) {
 }
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(1)
 // Detyra 10 --------------------------------------------------------------------------------------------------
 
 struct ListNode10 {
@@ -442,7 +451,8 @@ bool containsValue10(ListNode10* head, int targetValue) {
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(h)
 // Detyra 11 --------------------------------------------------------------------------------------------------
 
 struct TreeNode11 {
@@ -486,7 +496,8 @@ TreeNode11* insert11(TreeNode11* root, int value) {
 
 
 
-
+// Time Complexity = O(n) (rasti me i keq - pema eshte e njeanshme), O(log(n)) (rasti mesatar, pema e balancuar)
+// Space Complexity = O(h) (rasti me i keq - pema eshte e njeanshme), O(log(n)) (rasti mesatar, pema e balancuar)
 // Detyra 12 --------------------------------------------------------------------------------------------------
 
 struct TreeNode12 {
@@ -541,7 +552,8 @@ void inorder12(TreeNode12* root) {
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(n)
 // Detyra 13 --------------------------------------------------------------------------------------------------
 
 struct TreeNode13 {
@@ -606,7 +618,8 @@ void inorder13(TreeNode13* root) {
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(h) (rasti me i keq, pema e njeanshme), O(log(n)) (rasti mesatar, pema e balancuar)
 // Detyra 14 --------------------------------------------------------------------------------------------------
 
 struct TreeNode14 {
@@ -662,7 +675,8 @@ void printBFS14(TreeNode14* root) {
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(n)
 // Detyra 15 --------------------------------------------------------------------------------------------------
 
 struct TreeNode15 {
@@ -714,7 +728,8 @@ TreeNode15* insert15(TreeNode15* root, int value) {
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(n)
 // Detyra 16 --------------------------------------------------------------------------------------------------
 
 class Solution16 {
@@ -739,7 +754,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(n)
 // Detyra 17 --------------------------------------------------------------------------------------------------
 
 class Solution17 {
@@ -770,7 +786,8 @@ bool containsNumbers(const string& input) {
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(n)
 // Detyra 18 --------------------------------------------------------------------------------------------------
 
 class Solution18 {
@@ -800,7 +817,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(n)
 // Detyra 19 --------------------------------------------------------------------------------------------------
 
 class Solution19 {
@@ -828,7 +846,8 @@ public:
 
 
 
-
+// Time Complexity = O(n)
+// Space Complexity = O(1)
 // Detyra 20 --------------------------------------------------------------------------------------------------
 
 class Solution20 {
